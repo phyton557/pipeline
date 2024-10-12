@@ -22,7 +22,7 @@ jobs:
           java-version: '11'
 
       - name: Build with Gradle
-        run: ./gradlew build  # Para projetos Gradle
+        run: ./backend/gradlew build  # Para projetos Gradle
 
       - name: Run tests
         run: ./gradlew test  # Para rodar testes
