@@ -1,7 +1,7 @@
 name: CI Pipeline  # Nome do workflow
 
-on:  # Eventos que vão disparar o pipeline
-  push:  # O pipeline será executado quando houver um push
+on: # Eventos que vão disparar o pipeline
+  push:   # O pipeline será executado quando houver um push
     branches:
       - main  # Especifica a branch que vai disparar o workflow
   pull_request:  # O pipeline será executado em pull requests
